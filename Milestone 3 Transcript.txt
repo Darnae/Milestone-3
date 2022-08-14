@@ -12,7 +12,9 @@ Next, at line 53, my first method, increase_Storage() is a method that adds item
 
 On line 64 is my third method, restock_Storage(). As the name suggests, this the method that refills an item in the inventory. I used this method to restock the previously unstocked item "Weapons Cash" and added that it has been restocked.
 
-Line 68, my method search_Storage is the method I used to search for an item in my inventory by two criteria. This method does a lot more than my previous methods. First I declared two more string variables. The first was "search". The string that held the value of my searched invenotory item "Equipment". I used this varible to search for "Equipment" by the first letter, fulling one criteria. The second string "second_Search" also searches for "Equipment" but by a different criteria, and that is the name itself. Now I have searched for one item in my inventory by two criteria. Finally, this method also causes a message to appear on screen, that shows what I have searched for and by what criteria.
+Line 68, my method search_Storage is the method I used to search for an item in my inventory by two criteria. This method does a lot more than my previous methods. First I declared two more string variables. The first was "search". The string that held the value of my searched invenotory item "Equipment". I used this varible to search for "Equipment" by the first letter, fulling one criteria. 
+
+The second string "second_Search" also searches for "Equipment" but by a different criteria, and that is the name itself. Now I have searched for one item in my inventory by two criteria. Finally, this method also causes a message to appear on screen, that shows what I have searched for and by what criteria.
 
 Lastly, my final method, getStorage(). this is the method that displays the contents of whats currently in my inventory. It shows items that were added, the item that was deleted, when that the item was restocked.
 
