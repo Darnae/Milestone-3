@@ -4,17 +4,23 @@ It shows the my Class name and private variable that I will declare as a string 
 
 I have added the disclaimer of this being my own work along with my name. Both on the UML and the code itself.
 
-Moving on to the code, the first thing that you can see is button method that has call references to other methods in my class. Although, this is the first to be seen it was created last after creating the class and the other methods.
+Moving on to the code, the first thing that you can see is button method that has call references to other methods in my class. 
+Although, this is the first to be seen it was created last after creating the class and the other methods.
 
-Scrolling down to line 45 is where I have declared my class. As per instructions I named it "Iventory_Manager". The first variable declared is the private string "storage". Its an array that I did not yet assign value to. But that is quickly changed in the public reference to my class. The "public Inventory_Manager()". There I assign value to the array.
+Scrolling down to line 45 is where I have declared my class. As per instructions I named it "Iventory_Manager". 
+The first variable declared is the private string "storage". Its an array that I did not yet assign value to. But that is quickly changed in the public reference to my class. The "public Inventory_Manager()". There I assign value to the array.
 
-Next, at line 53, my first method, increase_Storage() is a method that adds items to my inventory. Three items have been added and three slots have been filled. Immediately after on line 59 is decrease_Storage() method. This method deletes one the items in a previously filled slot, replacing the value with NA (not availble) meaning by store terms the item has been bought or taken.
+Next, at line 53, my first method, increase_Storage() is a method that adds items to my inventory. 
+Three items have been added and three slots have been filled. Immediately after on line 59 is decrease_Storage() method. This method deletes one the items in a previously filled slot, replacing the value with NA (not availble) meaning by store terms the item has been bought or taken.
 
-On line 64 is my third method, restock_Storage(). As the name suggests, this the method that refills an item in the inventory. I used this method to restock the previously unstocked item "Weapons Cash" and added that it has been restocked.
+On line 64 is my third method, restock_Storage(). As the name suggests, this the method that refills an item in the inventory. 
+I used this method to restock the previously unstocked item "Weapons Cash" and added that it has been restocked.
 
-Line 68, my method search_Storage is the method I used to search for an item in my inventory by two criteria. This method does a lot more than my previous methods. First I declared two more string variables. The first was "search". The string that held the value of my searched invenotory item "Equipment". I used this varible to search for "Equipment" by the first letter, fulling one criteria. 
+Line 68, my method search_Storage is the method I used to search for an item in my inventory by two criteria. 
+This method does a lot more than my previous methods. First I declared two more string variables. The first was "search". The string that held the value of my searched invenotory item "Equipment". I used this varible to search for "Equipment" by the first letter, fulling one criteria. 
 
-The second string "second_Search" also searches for "Equipment" but by a different criteria, and that is the name itself. Now I have searched for one item in my inventory by two criteria. Finally, this method also causes a message to appear on screen, that shows what I have searched for and by what criteria.
+The second string "second_Search" also searches for "Equipment" but by a different criteria, and that is the name itself. 
+Now I have searched for one item in my inventory by two criteria. Finally, this method also causes a message to appear on screen, that shows what I have searched for and by what criteria.
 
 Lastly, my final method, getStorage(). this is the method that displays the contents of whats currently in my inventory. It shows items that were added, the item that was deleted, when that the item was restocked.
 
